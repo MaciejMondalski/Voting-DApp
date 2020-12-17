@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Voting_pic.png" width="350" title="hover text">
+  <img src="./Voting_pic.png" width="1400" title="hover text">
 </p>
 
 # Getting Started with Create React App
