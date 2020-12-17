@@ -9,4 +9,10 @@ module.exports = async function (deployer, _network, accounts) {
     ["Anna", "John", "Mike"],
     120
   );
+
+  await voting.createBallot(
+    "What is your favourite fruit?",
+    ["Banana", "Apple", "Orange"],
+    120
+  );
 };
