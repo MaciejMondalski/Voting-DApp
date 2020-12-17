@@ -6,13 +6,7 @@ module.exports = async function (deployer, _network, accounts) {
   await voting.addVoters([accounts[1], accounts[2], accounts[3]]);
   await voting.createBallot(
     "Who should be the winner?",
-    ["Trump", "Biden", "Hillary"],
-    120
-  );
-
-  await voting.createBallot(
-    "Who should be the looser?",
-    ["John", "Ella", "Mike"],
+    ["Anna", "John", "Mike"],
     120
   );
 };
